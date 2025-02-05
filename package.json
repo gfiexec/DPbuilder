@@ -1,0 +1,21 @@
+{
+  "name": "json-creator",
+  "version": "1.0.0",
+  "description": "A web app to create JSON with data protection capabilities",
+  "main": "script.js",
+  "type": "module",
+  "dependencies": {
+    "@iexec/dataprotector": "^2.0.0-beta.11",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "vite": "^5.0.0"
+  },
+  "scripts": {
+    "start": "http-server",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}

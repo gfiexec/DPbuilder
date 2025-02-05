@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>JSON Creator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Create JSON</h1>
+        <form id="jsonForm">
+            <div class="form-group">
+                <label for="key">Key:</label>
+                <input type="text" id="key" name="key" required>
+            </div>
+            <div class="form-group">
+                <label for="value">Value:</label>
+                <input type="text" id="value" name="value" required>
+            </div>
+            <div class="button-group">
+                <button type="submit">Add Key-Value</button>
+                <button type="button" id="clearJson">Clear All</button>
+            </div>
+        </form>
+        <div class="json-container">
+            <h2>Generated JSON:</h2>
+            <pre id="jsonOutput">{}</pre>
+            <button type="button" id="protectData" class="protect-button">Protect Data</button>
+        </div>
+        <div id="protectedOutput" class="protected-container" style="display: none;">
+            <h2>Protected Data:</h2>
+            <pre id="protectedJson"></pre>
+        </div>
+    </div>
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
