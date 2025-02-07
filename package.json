@@ -5,8 +5,8 @@
   "main": "script.js",
   "type": "module",
   "dependencies": {
-    "@iexec/dataprotector": "^2.0.0-beta.11",
-    "web3": "^1.5.2"
+    "@iexec/dataprotector": "^2.0.0-beta.12",
+    "web3": "^4.16.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1",
